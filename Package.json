@@ -1,0 +1,11 @@
+{
+  "name": "binance-futures-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Zero-dependency CORS proxy for Binance USDⓈ-M Futures market data",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

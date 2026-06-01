@@ -6,6 +6,7 @@
 const http = require("http");
 
 const PORT = process.env.PORT || 8080;
+const MY_PROXY = "https://binance-proxy-production-b951.up.railway.app";
 
 // 多個 Binance 邊緣節點，自動容錯（某些地區封鎖主節點時切換）
 const BINANCE_HOSTS = [
